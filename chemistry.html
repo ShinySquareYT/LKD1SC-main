@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LK Div. 1 Science</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="w3-styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Lato", sans-serif
+        }
+
+        .w3-bar,
+        h1,
+        button {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .fa-anchor,
+        .fa-coffee {
+            font-size: 200px
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/320b33fac5.js" crossorigin="anonymous"></script>
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar cg1 w3-card w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large cg1"
+                href="" onclick="mobile_menu()" title="Toggle Navigation Menu"><i
+                    class="fa fa-bars"></i></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+            <a href="chemistry.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">
+                Chemistry
+            </a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">#</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">#</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">#</a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="chemistry.html" class="w3-bar-item w3-button w3-padding-large">Chemistry</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">#</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">#</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">#</a>
+        </div>
+    </div>
+
+    <script>
+        function mobile_menu() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+        
+    </script>
+    <script src="javascript/petal_utilities.js"></script>
+    
+
+    <embed src="Science Ch 5.1 - The Particle Model of Matter.pdf" width="800px" height="2100px" />
+    <!-- <header class="w3-container cg1 w3-center" style="padding:128px 16px">
+        <h1 class="w3-margin w3-jumbo">Petals</h1>
+        <p class="w3-xlarge">Petals are the things you fight with in the game.</p>
+         <a href="https://florr.io/">
+            <button class="w3-button cg2 w3-padding-large w3-large w3-margin-top">Play</button></a> 
+    </header> -->
+    <!-- Section 1 -->
+    <!-- <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>Basic petals</h1>
+                <h5 class="w3-padding-32">There are a lot of petals in florr.io, there are 77 petals.</h5>
+
+                <p class="w3-text-grey">You can kill mobs to get xp and petals(which you attack with) and petals are one of the most important things in florr.io</p>
+            </div>
+
+            <div class="w3-third w3-center">
+                <img src="images/florrplayer1.png" class="w3-padding-64 w3-text-red">
+            </div>
+        </div>
+    </div>
+    <div class="w3-row-padding w3-light-grey w3-container">
+        <div class="w3-content">
+            <div class="w3-third w3-center">
+                <img src="images/m_wing.png'.webp" class="w3-padding-64 w3-text-red" width="100">
+            </div>
+            <div class="w3-twothird">
+                <h1>What petals are there?</h1>
+                <h5 class="w3-padding-32">There are a lot of petals which are listed down below. For you to understand better, we will show the picture of the lowest rarity possible of 
+                    a petal, the rarity that I currently have, and pictures of me using the petal.
+                    (Not including the picture on the left.)
+                </h5>
+
+                <p class="w3-text-grey">The petals are: <a href="petals/air.html">Air</a>, <a href="">Amulet</a>, <a href="">Ankh</a>, Antennae, Basic, Basil, Battery, Bone, Bubble, 
+                    Bulb, Bur, Cactus, Cardm Carrot, Chip, Claw, Clover, Coin, Compass, Corn, Cotton, 
+                    Cutter, Dahlia, Dandelion, Dice, Disc, Ant Egg, Beetle Egg, Fangs, Faster, Grapes, 
+                    Glass, Heavy, Honey, Iris, Jelly, Leaf, Light, Lightning, Lotus, Magnet, Mark, Missile, 
+                    Moon, Orange, Pearl, Peas, Pincer, Plank, Pollen, Poo, Powder, Privet, Relic, Rice, Rock, 
+                    Root, Rose, Rubber, Salt, Sand, Shell, Shovel, Soil, Sponge, Square, Starfish, Stick, Stinger, 
+                    Blood Stinger, Talisman, Third Eye, Tomato, Uranium, Web, Wing, Yggdrasil, Yin Yang, Yucca.
+                    The explaination of these petals are not going to be on this page. The basic description of the petals are <a href="petals/air.html">here</a>
+                </p>
+            </div>
+        </div>
+    </div>
+     -->
+</body>
+
+</html>
